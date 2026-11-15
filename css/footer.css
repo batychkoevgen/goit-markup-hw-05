@@ -70,13 +70,14 @@
   width: 165px;
   height: 40px;
   max-width: 165px;
+  font-weight: 500
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 .footer .btn-filled:hover,
 .footer .btn-filled:focus {
   background-color: #31d0aa;
-
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
 }
 
 .footer .modal-btn-icon {
@@ -112,4 +113,10 @@
 }
 .footer-form-input::placeholder {
   color: #fff;
+}
+
+.footer .modal-form-input{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
