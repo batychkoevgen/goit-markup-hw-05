@@ -63,6 +63,9 @@
   flex-direction: row;
   gap: 16px;
 
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
   border-radius: 4px;
@@ -70,7 +73,7 @@
   width: 165px;
   height: 40px;
   max-width: 165px;
-  font-weight: 500
+  font-weight: 500;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color;
@@ -92,6 +95,10 @@
 }
 
 .footer-form-input {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
   padding: 8px 16px;
   width: 264px;
   height: 40px;
@@ -115,7 +122,7 @@
   color: #fff;
 }
 
-.footer .modal-form-input{
+.footer .modal-form-input {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
