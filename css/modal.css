@@ -88,7 +88,7 @@
 
 .modal-btn:hover > .modal-btn-icon,
 .modal-btn:focus > .modal-btn-icon {
-  color: #f4f4fd;
+  color: #fff;
 }
 
 .modal-caption {
@@ -106,7 +106,7 @@
 .modal-form {
 }
 .modal-form-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-form-label {
   display: block;
